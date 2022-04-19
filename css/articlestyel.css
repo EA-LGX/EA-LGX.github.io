@@ -1,0 +1,8 @@
+#content h2,p{
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+#content p{
+    color:rgb(95, 91, 91);
+}

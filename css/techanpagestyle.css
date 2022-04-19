@@ -1,0 +1,65 @@
+#banner {
+    background-image: url("../images/banner-techan.png");
+    width: auto;
+    height: 240px;
+}
+
+.techan ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.techan li{
+    border-radius: 15px;
+    padding:10px;
+    margin: 10px;
+    width:300px;
+    height: 250px;
+    background: #d7e97a;
+}
+
+.techan li:hover{
+    position: relative;
+    top: -20px;
+}
+
+.techan img {
+    width: 210px;
+    height: 145px;
+    border-radius: 5px;
+}
+
+.techan p{
+    margin: 0;
+    font-size: 12px;
+}
+
+#jump {
+    padding: 0 380px;
+}
+
+#jump ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#jump li{
+    margin:0 5px;
+    padding: 0 15px;
+    text-align: center;
+    height: 30px;
+    background:#d7e97a;
+    border-radius: 5px;
+}
+
+#jump li:hover {
+    background: yellowgreen;
+    color: white;
+    position:relative;
+    top: -5px;
+}
+
+#jump a{
+    text-decoration: none;
+}
